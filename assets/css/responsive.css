@@ -1,0 +1,236 @@
+@media all and (max-width: 1280px) {
+  .aboutUsContent {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .text_48 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+  .project {
+    flex-wrap: wrap;
+  }
+  .contactArea {
+    padding: 66px 16px 0 16px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .menu {
+    display: flex !important;
+  }
+  .menu nav ul {
+    display: flex !important;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .menu nav ul {
+    flex-direction: column;
+  }
+  .header-title {
+    position: relative;
+  }
+  .menu {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(12 12 12);
+    width: 100%;
+    height: auto;
+    top: 80px;
+    left: 0;
+    padding: 100px 20px 180px 20px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    z-index: 9999;
+  }
+  .menu nav ul li a::after,
+  .menu nav ul li a::before,
+  .menu nav ul li a:hover {
+    color: #ffffff !important;
+  }
+  .menu-bar {
+    display: block;
+  }
+  #toggleNav-icon {
+    width: 28px;
+    height: 23px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    top: 30%;
+    right: 0;
+  }
+  #toggleNav-icon span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 0px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+  }
+  #toggleNav-icon span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+  }
+  #toggleNav-icon span:nth-child(2) {
+    top: 8px;
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+  }
+  #toggleNav-icon span:nth-child(3) {
+    top: 16px;
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+  }
+  #toggleNav-icon.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -2px;
+    left: 2px;
+  }
+  #toggleNav-icon.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+  }
+  #toggleNav-icon.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 18px;
+    left: 2px;
+  }
+  /*End Mobile Menu icon*/
+  .menu nav ul {
+    gap: 30px;
+  }
+  .headerLogo img {
+    width: 70px;
+  }
+  .main-header-area {
+    padding: 20px 0;
+  }
+  .aboutUs {
+    padding: 10px 0px 100px;
+  }
+  .mainAboutUs {
+    flex-direction: column-reverse;
+    gap: 70px;
+  }
+  .aboutUsContent,
+  .aboutUsImg {
+    width: 100%;
+  }
+  .aboutBtn {
+    margin: 30px auto 0;
+  }
+  .heading p {
+    font-size: 18px;
+  }
+  .contact {
+    gap: 60px;
+    flex-direction: column;
+  }
+  .contactForm,
+  .contactWraper {
+    width: 100%;
+  }
+  .mainUberDaniel {
+    flex-direction: column;
+  }
+  .uberImg {
+    margin: auto;
+    max-width: 80%;
+  }
+  .uberDaniel {
+    padding: 70px 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .text_48 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .menu {
+    padding: 90px 20px 140px 20px;
+  }
+  .mainFooterArea {
+    padding: 30px 0;
+  }
+  .heading p {
+    font-size: 16px;
+  }
+  .aboutUs {
+    padding: 10px 0px 70px;
+  }
+  .projectArea {
+    padding: 70px 0;
+  }
+  .project {
+    margin: 50px 0;
+  }
+  .contact {
+    padding: 50px 40px;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .text_18 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .text_48 {
+    font-size: 34px;
+    line-height: 46px;
+  }
+  .contact {
+    padding: 40px 34px;
+  }
+  .contactArea {
+    padding: 58px 0px 0 0px;
+  }
+  .btn2 {
+    margin: 24px 0 30px 0;
+  }
+  .contactWraper h2 {
+    font-size: 22px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .btn1 {
+    padding: 18px 10px;
+  }
+  .contact {
+    padding: 30px 24px;
+  }
+  .contactArea {
+    padding: 40px 0px 0 0px;
+  }
+  .contactForm {
+    padding: 16px 18px;
+  }
+}
